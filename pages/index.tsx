@@ -16,8 +16,8 @@ const Home = () => {
   return (
     <div className='flex'>
       <Head>
-        <title>Template By Ntavigwa</title>
-        <meta name='description' content='Template By Ntavigwa Bashombe' />
+        <title>Dashboard-Template</title>
+        <meta name='description' content='Dashboard' />
       </Head>
       <App />
     </div>
