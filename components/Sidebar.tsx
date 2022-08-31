@@ -30,7 +30,7 @@ const Logo = () => {
           <p>PSONO</p>
         </div>
       </div>
-      <div className='flex flex-col space-y-8 font-semibold text-xl p-10'>
+      <div className='flex flex-col space-y-8 font-semibold text-xl p-10 font-mulish'>
         <div className='flex flex-row space-x-5 items-center cursor-pointer'>
           <TbFileInvoice className='text-3xl' />
           <p>Invoices</p>
@@ -61,7 +61,7 @@ const Logo = () => {
           <p>Settings</p>
         </div>
       </div>
-      <div className='bg-pink-50 w-56 h-64 flex relative m-5 mt-24 rounded-lg'>
+      <div className='bg-blck w-56 h-60 flex relative m-5 mt-24 rounded-2xl'>
         <div className='bg-teal-800 w-3 h-3 rounded-full absolute ml-40 mt-6'></div>
       </div>
     </div>
