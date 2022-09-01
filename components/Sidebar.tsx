@@ -70,7 +70,7 @@ const Logo = () => {
         <div className='bg-choco w-11 h-11 absolute ml-24 mt-10 rounded-full'></div>
         <div className='bg-choco w-6 h-6 mt-20 ml-20 absolute rounded-tl-full z-20'></div>
         <div className='bg-orange-400 w-14 h-14 absolute mt-20 ml-20 rounded-full z-10'></div>
-        <div className='font-semibold text-xl my-40 mx-6 font-mulish'>
+        <div className='font-semibold text-xl my-40 mx-6 font-mulish cursor-pointer'>
           <p>Upgrade</p>
           <p className='flex'>
             Your Plan <HiArrowNarrowRight className='text-3xl py-1' />
@@ -79,7 +79,7 @@ const Logo = () => {
       </div>
       <div className='flex text-xl p-11 font-semibold '>
         <AiOutlineLogout className='m-1 mx-2' />
-        <p>Log Out</p>
+        <p className='cursor-pointer'>Log Out</p>
       </div>
     </div>
   );
