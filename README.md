@@ -29,3 +29,5 @@ Tailwind CSS is a utility-first CSS framework for rapidly building custom user i
 An official react icons library
 
 #### Developed with ♥♥♥ by Ntavigwa Bashombe
+
+this is the inspiration for this website:https://dribbble.com/shots/19016186-Dashboard-Design
