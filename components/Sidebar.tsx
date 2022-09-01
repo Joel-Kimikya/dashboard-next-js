@@ -8,6 +8,8 @@ import { RiArrowUpDownFill } from 'react-icons/ri';
 import { MdProductionQuantityLimits } from 'react-icons/md';
 import { AiOutlineTeam } from 'react-icons/ai';
 import { FiSettings } from 'react-icons/fi';
+import { HiArrowNarrowRight } from 'react-icons/hi';
+import { AiOutlineLogout } from 'react-icons/ai';
 
 const Sidebar = () => {
   return (
@@ -63,6 +65,21 @@ const Logo = () => {
       </div>
       <div className='bg-blck w-56 h-60 flex relative m-5 mt-24 rounded-2xl'>
         <div className='bg-teal-800 w-3 h-3 rounded-full absolute ml-40 mt-6'></div>
+        <div className='bg-stone-800 w-20 h-20 absolute m-6 rounded-tl-full z-20'></div>
+        <div className='bg-teal-800 w-20 h-20 absolute ml-32 mt-14 rounded-bl-full z-10'></div>
+        <div className='bg-choco w-11 h-11 absolute ml-24 mt-10 rounded-full'></div>
+        <div className='bg-choco w-6 h-6 mt-20 ml-20 absolute rounded-tl-full z-20'></div>
+        <div className='bg-orange-400 w-14 h-14 absolute mt-20 ml-20 rounded-full z-10'></div>
+        <div className='font-semibold text-xl my-40 mx-6 font-mulish'>
+          <p>Upgrade</p>
+          <p className='flex'>
+            Your Plan <HiArrowNarrowRight className='text-3xl py-1' />
+          </p>
+        </div>
+      </div>
+      <div className='flex text-xl p-11 font-semibold '>
+        <AiOutlineLogout className='m-1 mx-2' />
+        <p>Log Out</p>
       </div>
     </div>
   );
