@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         blck: '#FAFAFA',
+        choco: '#E1D4C4',
       },
     },
     fontFamily: {
