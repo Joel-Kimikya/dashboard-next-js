@@ -69,7 +69,7 @@ const Logo = () => {
           <div className='bg-gradient-to-tl from-stone-800 w-full h-full'></div>
         </div>
         <div className='w-20 h-20 bg-white absolute ml-32 mt-14 rounded-bl-full z-10 overflow-hidden'>
-          <div className='bg-gradient-to-b from-teal-800 w-full h-full'></div>
+          <div className='bg-gradient-to-br from-teal-800 w-full h-full'></div>
         </div>
         <div className='bg-choco w-11 h-11 absolute ml-24 mt-10 rounded-full'></div>
         <div className='bg-choco w-6 h-6 mt-20 ml-20 absolute rounded-tl-full z-20'></div>
